@@ -11,10 +11,22 @@ No diretório do projeto, executar os seguintes comandos para gerar o .jar, cons
 ````
  docker build -t br.edu.infnet/devops .
 ````
+
+Para executar somente o projeto:
 ````
  docker run -d -p 8080:8080 br.edu.infnet/devops
 ````
 
+Para executar o projeto com o Grafana e Prometheus
+
+```
+ docker-compose up
+```
+
 API: http://localhost:8080/user
 
 Documentação: http://localhost:8080
+
+Prometheus: http://localhost:9090
+
+Grafana: http://localhost:3000
