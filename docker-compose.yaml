@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   devops_app:
-    image: "br.edu.infnet/devops"
+    image: "amilton2012/devops"
     depends_on:
       - zipkin
     ports:

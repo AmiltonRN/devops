@@ -9,15 +9,15 @@ No diretório do projeto, executar os seguintes comandos para gerar o .jar, cons
  mvn clean package
 ````
 ````
- docker build -t br.edu.infnet/devops .
+ docker build -t amilton2012/devops .
 ````
 
 Para executar somente o projeto:
 ````
- docker run -d -p 8080:8080 br.edu.infnet/devops
+ docker run -d -p 8080:8080 amilton2012/devops
 ````
 
-Para executar o projeto com o Grafana e Prometheus
+Para executar o projeto com o Grafana, Prometheus e Zipkin
 
 ```
  docker-compose up
@@ -31,4 +31,4 @@ Prometheus: http://localhost:9090
 
 Grafana: http://localhost:3000
 
-ZipKin: http://localhost:9411
+Zipkin: http://localhost:9411
