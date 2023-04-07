@@ -23,6 +23,8 @@ Para executar o projeto com o Grafana, Prometheus e Zipkin
  docker-compose up
 ```
 
+## Endpoints da aplicação e ferramentas configuradas via docker-compose
+
 API: http://localhost:8080/user
 
 Documentação: http://localhost:8080
