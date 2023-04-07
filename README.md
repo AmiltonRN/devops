@@ -1,3 +1,4 @@
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/amiltonrn/devops/maven.yml)
 # Devops
 Projeto da disciplina Integração Contínua e DevOps 23E1_3
 
