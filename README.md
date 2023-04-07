@@ -1,4 +1,4 @@
-# Devops ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/amiltonrn/devops/maven.yml)
+# Devops ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/amiltonrn/devops/maven.yml) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/amilton2012/devops)
 Projeto da disciplina Integração Contínua e DevOps 23E1_3
 
 :construction: Projeto em construção :construction:
