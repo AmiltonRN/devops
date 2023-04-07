@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserResource {
 
-    final static Logger logger = LoggerFactory.getLogger(UserResource.class);
+    static final Logger logger = LoggerFactory.getLogger(UserResource.class);
     @Autowired
     UserRepository userRepository;
 
