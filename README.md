@@ -6,7 +6,7 @@ Projeto da disciplina Integração Contínua e DevOps 23E1_3
 ## Instruções para executar o projeto no docker
 No diretório do projeto, executar os seguintes comandos para gerar o .jar, construir a imagem e executar o container no docker:
 ````
- mvn clean package
+ mvn clean package -DskipTests
 ````
 ````
  docker build -t amilton2012/devops .
