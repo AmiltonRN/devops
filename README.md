@@ -2,12 +2,41 @@
 Projeto da disciplina Integração Contínua e DevOps 23E1_3
 
 :construction: Projeto em construção :construction:
+## Profiles:
 
-## Instruções para executar o projeto no docker
+- **dev** - Aponta para a base de desenvolvimento - **Padrão**.
+- **test** - Aponta para a base de teste, por padrão o teste sempre roda com esse profile.
+- **prod** - Aponta para a base de produção.
+
+## Instruções para executar o projeto via maven (dev, test e prod)
+No diretório do projeto, executar os seguintes comandos para construir o .jar da aplicação:
+
+Para realizar o build e executar o projeto com o profile **dev**:
+```bash
+mvn clean package -DskipTests
+mvn spring-boot:run
+```
+
+Para executar os testes com o profile de **test**:
+```
+mvn test
+```
+
+Para fazer o build e executar o projeto com o profile de **prod**:
+```
+mvn clean package -DskipTests
+mvn spring-boot:run -D spring.profiles.active=prod
+```
+
+
+## Instruções para executar o projeto no docker(prod)
 No diretório do projeto, executar os seguintes comandos para gerar o .jar, construir a imagem e executar o container no docker:
+
+Para construir a aplicação:
 ````
  mvn clean package -DskipTests
 ````
+Para construir a imagem docker:
 ````
  docker build -t amilton2012/devops .
 ````
