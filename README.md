@@ -1,7 +1,6 @@
 # Devops ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/amiltonrn/devops/maven.yml) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/amilton2012/devops)
-Projeto da disciplina Integração Contínua e DevOps 23E1_3
+Projeto da disciplina Integração Contínua e DevOps 23E1_3 da Pós Graduação de Engenharia de Software com Java
 
-:construction: Projeto em construção :construction:
 ## Profiles:
 
 - **dev** - Aponta para a base de desenvolvimento - **Padrão**.
